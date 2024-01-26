@@ -9,7 +9,7 @@ function Footer() {
           Alan AI
         </a>
       </span>{" "}
-      - Oguzhan Bayoglu 2022
+      - Oguzhan Bayoglu 2024
     </footer>
   );
 }
