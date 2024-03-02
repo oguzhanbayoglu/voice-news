@@ -5,7 +5,7 @@ function NewsCard({ news }) {
     "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
 
   return (
-    <div className="card card-compact w-[21.9rem]  m-4 shadow-2xl lg:first:w-[45.9rem]">
+    <div className="card card-compact w-[21.9rem]  m-4 shadow-2xl lg:first:w-[45rem]">
       <figure>
         <img src={news.urlToImage || boilerBg} alt="cover" />
       </figure>

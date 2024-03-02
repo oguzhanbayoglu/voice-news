@@ -1,15 +1,11 @@
 import React from "react";
+import logo from "../img/logo.png";
 
 function Footer() {
   return (
-    <footer className="h-20 shrink-0 flex  items-center">
-      Voice control powered by{" "}
-      <span className="underline hover:text-white mx-1">
-        <a href="https://alan.app/" target="_blank">
-          Alan AI
-        </a>
-      </span>{" "}
-      - Oguzhan Bayoglu 2024
+    <footer className="h-20 shrink-0 flex gap-4 items-center text-[.75rem]">
+      <img src={logo} alt="logo" className="h-4 opacity-50" /> Oguzhan Bayoglu
+      2024 ©
     </footer>
   );
 }

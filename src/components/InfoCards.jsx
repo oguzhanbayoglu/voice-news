@@ -2,7 +2,7 @@ import React from "react";
 
 function InfoCards() {
   return (
-    <div className="flex flex-wrap gap-8 text-white  p-4 pt-8 h-full items-center">
+    <div className="flex flex-wrap gap-8 text-white  p-4 pt-8 h-auto lg:h-full items-center">
       <div className="w-[21.9rem] h-[21.9rem] card  border-gray-600 border-solid border-[1px] p-8 flex flex-col justify-between">
         <h2 className="card-title text-3xl">Latest News</h2>
         <div>
